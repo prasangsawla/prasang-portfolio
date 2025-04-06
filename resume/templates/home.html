@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{%load static %}
+
+{% block content %} 
+
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-item-center">
+    <div class="circular-image-container">
+        <img class="circular-image" src='{% static "images/WhatsApp Image 2025-03-27 at 17.35.48_3d0f4dfd.jpg"%}'' alt="image">
+    </div>
+</div>
+<div class="col-12 text-center  mt-3">
+    <h4 class="title">Hi,my name is</h4>
+    <div class="name">
+    <h1>Prasang sawla</h1>
+    <h1>I am a Django developer</h1>
+</div>
+</div>
+
+<div class="col-12 text-center mt-3">
+    <div class="col-12 d-flex justify-content-center align-item-center">
+
+    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE0X9PvFISaJQAAAZYHRjXg6c4s4dQomXEmDYot62SXP5A-dvrZ-NBVwgBYcdVkFJjTKeE4r_Q95xQQT6Dg45yScgdSZ9EZNxKqXOyt4yz_Q-WYmQ8vgmg8Z_fZYzzzxXUfzwc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fprasang-sawla-464b86282" target="_blank" class="ms-3"> 
+        <img src="{%static 'images/linkendin.png'%}" alt="linkedin" width="50" height="50" class="social_links"></a>
+
+
+            <a href="https://www.instagram.com/prasangsawla/?hl=am-et" target="_blank" class="ms-3"> 
+                <img src="{%static 'images/insta.jpg'%}" alt="instagram" width="50"height="50" class="social_links
+                "></a>
+        </div>
+</div>
+</div>
+
+{% endblock content %}

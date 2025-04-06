@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container my-5">
+    <h2 class="text-center text-white mb-4" style="font-size: 35px; font-weight: bold;">My Certifications</h2>
+
+    <div class="row justify-content-center">
+
+        <!-- Certificate 1 -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/google1.png' %}" 
+            alt="Certificate 1" 
+            class="img-fluid mb-3" 
+            style="border-radius:10px; border:2px solid #4fffb0; width:100%; height:auto;">
+            <h5 style="color: white;">Foundation in cybersecurity</h5>
+            <p style="color: white;">cybersecurity</p>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/google2.png' %}" 
+            alt="Certificate 2" 
+            class="img-fluid mb-3" 
+            style="border-radius:10px; border:2px solid #4fffb0; width:100%; height:auto;">
+            <h5 style="color: white;">Google prompting essentials</h5>
+            <p style="color: white;">Prompting</p>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/Screenshot (43).png' %}" alt="Certificate 3"
+                class="img-fluid mb-3" style="border-radius:10px; border:2px solid #4fffb0; width:100%; height:auto;">
+            <h5 style="color: white;">Google AI essentials</h5>
+            <p style="color: white;">AI</p>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/WhatsApp Image 2025-04-06 at 15.11.31_58f86ec8.jpg' %}" alt="Certificate 4"
+                class="img-fluid mb-3" style="border-radius:10px; border:2px solid #4fffb0; width:100%; height:auto;">
+            <h5 style="color: white;">BIG DATA 101</h5>
+            <p style="color: white;">Cognitive class</p>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/WhatsApp Image 2025-04-06 at 15.11.32_142347c5.jpg' %}" alt="Certificate 5"
+                class="img-fluid mb-3" style="border-radius:10px; border:2px solid #4fffb0; width:100%; height:auto;">
+            <h5 style="color: white;">Reinforcement learning and Deep learning essentials </h5>
+            <p style="color: white;">Machine learning essentials</p>
+        </div>
+
+       
+    </div>
+</div>
+
+{% endblock content %}

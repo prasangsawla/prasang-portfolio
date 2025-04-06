@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container my-5">
+    <h2 class="text-center text-white mb-4" style="font-size: 35px; font-weight: bold;">My Projects</h2>
+
+    <div class="row justify-content-center">
+        <!-- To-Do List Project -->
+        <div class="col-md-4 text-center mb-4">
+            <a href="https://github.com/prasangsawla/TO-DO-LIST" target="_blank">
+                <img src="{% static 'images/todolist.jpeg' %}" 
+                alt="To-Do List Project" 
+                class="img-fluid mb-3" 
+                style="border-radius:10px; transition: transform 0.3s; width:100%; height:auto;">
+            </a>
+            <h4 style="color: white; font-weight: bold;">To-Do List Web App</h4>
+            <p style="color: white;">A simple and user-friendly To-Do List website built using Django, Python, HTML, CSS & SQL. Helps users to add, update & delete tasks easily.</p>
+        </div>
+
+        <!-- Coming Soon Project -->
+        <div class="col-md-4 text-center mb-4">
+            <img src="{% static 'images/stay.png' %}" 
+            alt="Coming Soon" 
+            class="img-fluid mb-3" 
+            style="border-radius:10px; opacity:0.5; width:100%; height:auto;">
+            
+            <h4 style="color: white; font-weight: bold;">More Projects Coming Soon...</h4>
+            <p style="color: white;">Stay tuned for my upcoming projects. Working on something cool!</p>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
